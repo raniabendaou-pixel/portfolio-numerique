@@ -1,16 +1,17 @@
-/* Palette de couleurs et variables */
+
+/* Palette de couleurs et variables – Thème Rose */
 :root {
-  --primary-dark: #16324f;
-  --primary-blue: #2b6cb0;
-  --primary-hover: #1e4e8c;
-  --bg-light: #f4f7fa;
-  --hero-bg: #e9eff5;
+  --primary-dark: #5c1d3b;
+  --primary-blue: #c24178;
+  --primary-hover: #9d2b5c;
+  --bg-light: #fdf6f9;
+  --hero-bg: #fae6ef;
   --card-bg: #ffffff;
-  --text-main: #1a202c;
-  --text-muted: #4a5568;
-  --border-color: #e2e8f0;
-  --accent-orange: #dd6b20;
-  --accent-purple: #6b46c1;
+  --text-main: #2b1420;
+  --text-muted: #6e4759;
+  --border-color: #f2d5e2;
+  --accent-orange: #db5a7e;
+  --accent-purple: #8e3b73;
 }
 
 * {
@@ -75,7 +76,7 @@ header {
   padding-bottom: 2px;
 }
 
-/* Hero Section (Page d'accueil - Image 1) */
+/* Hero Section (Page d'accueil) */
 .hero {
   background-color: var(--hero-bg);
   padding: 3rem 1.5rem;
@@ -96,7 +97,7 @@ header {
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid var(--card-bg);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(194, 65, 120, 0.18);
 }
 
 .hero-text h1 {
@@ -131,7 +132,7 @@ main {
   margin-bottom: 2rem;
 }
 
-/* Grille de Cartes (Modules - Image 1) */
+/* Grille de Cartes (Modules) */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
@@ -143,7 +144,7 @@ main {
   border-radius: 12px;
   padding: 2rem 1.5rem;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(194, 65, 120, 0.06);
   border: 1px solid var(--border-color);
   display: flex;
   flex-direction: column;
@@ -153,7 +154,7 @@ main {
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px rgba(194, 65, 120, 0.14);
 }
 
 .card-icon {
@@ -188,13 +189,13 @@ main {
   background-color: var(--primary-hover);
 }
 
-/* Pages Modules (Image 2 : Cybersécurité & Prompt Engineering) */
+/* Pages Modules */
 .module-section {
   background: var(--card-bg);
   border-radius: 12px;
   padding: 2rem;
   margin-bottom: 2.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(194, 65, 120, 0.06);
   border: 1px solid var(--border-color);
 }
 
@@ -219,7 +220,7 @@ main {
   border: 1px solid var(--border-color);
   border-radius: 8px;
   overflow: hidden;
-  background: #fafbfc;
+  background: #fff9fc;
 }
 
 .panel-header {
@@ -275,7 +276,7 @@ main {
   accent-color: var(--primary-blue);
 }
 
-/* Prompt Engineering Cases (Image 2) */
+/* Prompt Engineering Cases */
 .cases-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
