@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Skills – Cybersécurité &amp; Prompt Engineering</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -16,6 +17,7 @@
         <li><a href="cybersecurite.html" class="active">Digital Skills</a></li>
         <li><a href="../developpement/python.html">Développement</a></li>
         <li><a href="../systemes/systemes-exploitation.html">Systèmes</a></li>
+        <li><button id="theme-toggle" class="theme-btn" type="button">🌙 Mode Sombre</button></li>
       </ul>
     </nav>
   </header>
@@ -33,23 +35,23 @@
             <div class="infographic-grid">
               <div class="info-item">
                 <strong>🔑 Mots de passe</strong>
-                Utiliser un mot de passe long, unique et un gestionnaire.
+                Utiliser un mot de passe long, unique et un gestionnaire[cite: 4].
               </div>
               <div class="info-item">
                 <strong>📱 Double facteur (2FA)</strong>
-                Activer la vérification en deux étapes sur tous les comptes.
+                Activer la vérification en deux étapes sur tous les comptes[cite: 4].
               </div>
               <div class="info-item">
                 <strong>🔄 Mises à jour</strong>
-                Maintenir le système et les logiciels à jour.
+                Maintenir le système et les logiciels à jour[cite: 4].
               </div>
               <div class="info-item">
                 <strong>🎣 Vigilance Phishing</strong>
-                Vérifier l'expéditeur avant de cliquer sur un lien.
+                Vérifier l'expéditeur avant de cliquer sur un lien[cite: 4].
               </div>
               <div class="info-item">
                 <strong>🛡️ Antivirus</strong>
-                Protéger ses appareils contre les malwares et ransomwares.
+                Protéger ses appareils contre les malwares et ransomwares[cite: 3, 4].
               </div>
             </div>
           </div>
@@ -62,19 +64,19 @@
             <ul class="checklist">
               <li>
                 <input type="checkbox" id="chk1">
-                <label for="chk1">J'utilise des mots de passe différents pour chaque site.</label>
+                <label for="chk1">J'utilise des mots de passe différents pour chaque site[cite: 4].</label>
               </li>
               <li>
                 <input type="checkbox" id="chk2">
-                <label for="chk2">J'ai activé l'authentification à deux facteurs (2FA).</label>
+                <label for="chk2">J'ai activé l'authentification à deux facteurs (2FA)[cite: 4].</label>
               </li>
               <li>
                 <input type="checkbox" id="chk3">
-                <label for="chk3">Je fais régulièrement les mises à jour de sécurité.</label>
+                <label for="chk3">Je fais régulièrement les mises à jour de sécurité[cite: 4].</label>
               </li>
               <li>
                 <input type="checkbox" id="chk4">
-                <label for="chk4">J'évite les réseaux Wi-Fi publics sans précaution.</label>
+                <label for="chk4">J'évite les réseaux Wi-Fi publics sans précaution[cite: 4].</label>
               </li>
             </ul>
           </div>
@@ -101,7 +103,7 @@
             </div>
             <div class="case-row">
               <span class="case-label">Analyse :</span>
-              L'ajout du rôle, du niveau et d'un format précis rend la réponse beaucoup plus claire et structurée.
+              L'ajout du rôle, du niveau et d'un format précis rend la réponse beaucoup plus claire et structurée[cite: 4].
             </div>
           </div>
         </article>
@@ -120,7 +122,7 @@
             </div>
             <div class="case-row">
               <span class="case-label">Analyse :</span>
-              Le contexte et la contrainte pédagogique permettent de comprendre l'erreur au lieu de copier-coller.
+              Le contexte et la contrainte pédagogique permettent de comprendre l'erreur au lieu de copier-coller[cite: 2, 4].
             </div>
           </div>
         </article>
@@ -139,7 +141,7 @@
             </div>
             <div class="case-row">
               <span class="case-label">Analyse :</span>
-              Délimiter le périmètre et le format de sortie produit un support de révision ciblé.
+              Délimiter le périmètre et le format de sortie produit un support de révision ciblé[cite: 4].
             </div>
           </div>
         </article>
@@ -150,17 +152,18 @@
     <aside class="ai-transparency">
       <div class="ai-badge">Transparence IA</div>
       <div class="ai-details">
-        <p><strong>Outils utilisés :</strong> Perplexity, Claude, Canva.</p>
-        <p><strong>Rôle de l'IA :</strong> Recherche de sources officielles, test comparatif de prompts et mise en page visuelle.</p>
-        <p><strong>Ce que j'ai fait moi-même :</strong> Rédaction des analyses, sélection des bonnes pratiques et vérification des informations.</p>
-        <p><strong>Sources vérifiées :</strong> ANSSI (ssi.gouv.fr), Cybermalveillance.gouv.fr.</p>
+        <p><strong>Outils utilisés :</strong> Perplexity, Claude, Canva[cite: 1, 2, 4].</p>
+        <p><strong>Rôle de l'IA :</strong> Recherche de sources officielles, test comparatif de prompts et mise en page visuelle[cite: 1, 4, 8].</p>
+        <p><strong>Ce que j'ai fait moi-même :</strong> Rédaction des analyses, sélection des bonnes pratiques et vérification des informations[cite: 2, 4, 8].</p>
+        <p><strong>Sources vérifiées :</strong> ANSSI (ssi.gouv.fr), Cybermalveillance.gouv.fr[cite: 4, 8].</p>
       </div>
     </aside>
   </main>
 
   <footer>
-    <p>&copy; 2026 – Portfolio Numérique | Module Digital Skills</p>
+    <p>&copy; 2026 – Portfolio Numérique | Module Digital Skills[cite: 1]</p>
   </footer>
 
+  <script src="../js/script.js"></script>
 </body>
 </html>
