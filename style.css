@@ -25,6 +25,7 @@ body {
   background-color: var(--bg-light);
   color: var(--text-main);
   line-height: 1.6;
+  transition: background-color 0.25s, color 0.25s;
 }
 
 /* Header & Navigation */
@@ -58,6 +59,7 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 1.5rem;
   flex-wrap: wrap;
 }
@@ -74,6 +76,24 @@ header {
   color: var(--primary-blue);
   border-bottom: 2px solid var(--primary-blue);
   padding-bottom: 2px;
+}
+
+/* Bouton Mode Sombre / Clair */
+.theme-btn {
+  background-color: var(--hero-bg);
+  color: var(--primary-dark);
+  border: 1px solid var(--border-color);
+  padding: 0.4rem 0.85rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.theme-btn:hover {
+  background-color: var(--primary-blue);
+  color: #ffffff;
 }
 
 /* Hero Section (Page d'accueil) */
@@ -354,6 +374,31 @@ main {
 
 .ai-details p {
   margin-bottom: 0.35rem;
+}
+
+/* Palette Mode Sombre (Rose / Bordeaux foncé) */
+body.dark-mode {
+  --primary-dark: #f9a8d4;
+  --primary-blue: #f472b6;
+  --primary-hover: #ec4899;
+  --bg-light: #1a0d14;
+  --hero-bg: #26121d;
+  --card-bg: #2d1623;
+  --text-main: #fdf2f8;
+  --text-muted: #fbcfe8;
+  --border-color: #4a2338;
+}
+
+body.dark-mode .panel,
+body.dark-mode .info-item,
+body.dark-mode .case-card {
+  background-color: #24111b;
+}
+
+body.dark-mode .panel-header,
+body.dark-mode .ai-badge {
+  background-color: #831843;
+  color: #ffffff;
 }
 
 /* Footer */
