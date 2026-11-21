@@ -4,79 +4,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Numérique | Rania Bendaou</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Mon Portfolio Numérique – 1ère Année</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+  <!-- Barre de navigation -->
   <header>
-    <h1>Rania Bendaou</h1>
-    <p>Étudiante en Technologie Informatique — Portfolio Numérique</p>
-    <nav aria-label="Navigation principale">
-      <ul>
-        <li><a href="#a-propos">À propos</a></li>
-        <li><a href="#competences">Compétences</a></li>
-        <li><a href="#projets">Projets</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <nav class="navbar">
+      <a href="index.html" class="brand">MON PORTFOLIO NUMÉRIQUE</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="digital-skills/cybersecurite.html">Digital Skills</a></li>
+        <li><a href="developpement/python.html">Développement</a></li>
+        <li><a href="systemes/systemes-exploitation.html">Systèmes</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- Section Présentation (Hero) -->
+  <section class="hero">
+    <div class="hero-container">
+      <img src="medias/avatar.png" alt="Photo ou avatar de l'étudiant" class="avatar">
+      <div class="hero-text">
+        <h1>Bienvenue sur mon Portfolio Numérique !</h1>
+        <p class="hero-subtitle">Étudiante en 1ère année – Technologie Informatique</p>
+        <p class="hero-desc">
+          Ce site présente mes réalisations techniques et mes productions numériques réalisées tout au long du semestre dans les modules Digital Skills, Développement et Systèmes.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cartes des Modules -->
   <main>
-    <section id="a-propos">
-      <h2>À propos de moi</h2>
-      <p>
-        Bienvenue sur mon portfolio numérique. Je suis étudiante en première année de
-        Technologie Informatique à l'ISET de Nabeul, passionnée par le développement web,
-        la programmation et l'apprentissage continu.
-      </p>
-    </section>
+    <h2 class="section-title">Mes Modules Clés</h2>
 
-    <section id="competences">
-      <h2>Compétences techniques</h2>
-      <ul>
-        <li><strong>Développement Web :</strong> HTML5, CSS3</li>
-        <li><strong>Programmation :</strong> C, C++, Python, Algorithmique</li>
-        <li><strong>Outils &amp; Systèmes :</strong> Git, GitHub, Linux</li>
-      </ul>
-    </section>
+    <div class="cards-grid">
+      <!-- Carte 1 : Digital Skills -->
+      <article class="card">
+        <div>
+          <div class="card-icon">🤖</div>
+          <h3>Digital Skills</h3>
+          <p>Cybersécurité, Prompt Engineering et Création de Contenu multimédia (vidéo, podcast, carte mentale).</p>
+        </div>
+        <a href="digital-skills/cybersecurite.html" class="btn">Explorer</a>
+      </article>
 
-    <section id="projets">
-      <h2>Projets &amp; Parcours</h2>
-      <article>
-        <h3>Portfolio Numérique</h3>
-        <p>
-          Site web personnel développé en HTML et CSS avec un thème rose, publié en ligne
-          grâce à GitHub Pages.
-        </p>
+      <!-- Carte 2 : Développement -->
+      <article class="card">
+        <div>
+          <div class="card-icon">💻</div>
+          <h3>Développement</h3>
+          <p>Mini-projets en Python, programmes en Langage C et résolution de problèmes en Algorithmique.</p>
+        </div>
+        <a href="developpement/python.html" class="btn">Voir les Projets</a>
       </article>
-      <article>
-        <h3>Travaux Pratiques Web 1</h3>
-        <p>
-          Pages et exercices pratiques réalisés en première année de Technologie Informatique.
-        </p>
-      </article>
-      <article>
-        <h3>Activités &amp; Engagement Technique</h3>
-        <p>
-          Participation à des activités techniques et formations collaboratives autour de la
-          programmation.
-        </p>
-      </article>
-    </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        Retrouvez mes dépôts et mes projets sur mon profil GitHub :
-        <a href="https://github.com/raniabendaou-pixel" target="_blank" rel="noopener noreferrer">
-          github.com/raniabendaou-pixel
-        </a>.
-      </p>
-    </section>
+      <!-- Carte 3 : Systèmes -->
+      <article class="card">
+        <div>
+          <div class="card-icon">⚙️</div>
+          <h3>Systèmes et Fondements</h3>
+          <p>Systèmes d'exploitation (Linux/Windows), Architecture des ordinateurs et Électronique numérique.</p>
+        </div>
+        <a href="systemes/systemes-exploitation.html" class="btn">Découvrir</a>
+      </article>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2026 Rania Bendaou — Portfolio Numérique</p>
+    <p>&copy; 2026 – Portfolio Numérique | Hébergé sur GitHub Pages</p>
   </footer>
+
 </body>
 </html>
