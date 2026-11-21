@@ -1,10 +1,11 @@
 # Portfolio Numérique
 
-Ce dépôt contient le code source de mon portfolio numérique publié avec **GitHub Pages**.
+Site web personnel présentant mon profil, mes compétences et mes projets, conçu en **HTML5** et **CSS3** (thème rose) et publié avec **GitHub Pages**.
 
-## Aperçu du projet
-- **Page d'accueil :** `index.html`
-- **Feuille de style :** `style.css`
+## Structure du projet
+- `index.html` : page principale du portfolio
+- `style.css` : mise en forme et thème rose
+- `README.md` : présentation du dépôt
 
-## Lien en ligne
+## Site en ligne
 https://raniabendaou-pixel.github.io/portfolio-numerique/
