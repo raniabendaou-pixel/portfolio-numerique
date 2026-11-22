@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Numérique | Accueil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">Portfolio Numérique</a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav class="site-nav" aria-label="Navigation principale">
+          <a href="index.html" aria-current="page">Accueil</a>
+          <a href="digital-skills/cybersecurite.html">Cybersécurité</a>
+          <a href="digital-skills/prompt-engineering.html"
+            >Prompt Engineering</a
+          >
+          <a href="digital-skills/creation-contenu.html">Création de contenu</a>
+          <a href="developpement/python.html">Python</a>
+          <a href="developpement/langage-c.html">Langage C</a>
+          <a href="developpement/algorithmique.html">Algorithmique</a>
+          <a href="systemes/systemes-exploitation.html">Systèmes</a>
+          <a href="systemes/architecture-electronique.html">Architecture</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Présentation personnelle -->
+      <section class="hero" aria-labelledby="titre-hero">
+        <div class="hero-media">
+          <img
+            src="avatar.jpg.jfif"
+            alt="Photo ou avatar de présentation de l'étudiante"
+          />
+        </div>
+        <div class="hero-content">
+          <span class="badge">1ère année • Technologie Informatique</span>
+          <h1 id="titre-hero">Bonjour, je suis Rania</h1>
+          <p class="hero-text">
+            Bienvenue sur mon portfolio numérique hébergé sur GitHub Pages. Il
+            réunit mes réalisations par unité d'enseignement au fil du semestre.
+          </p>
+          <div class="hero-actions">
+            <a href="#pole-digital" class="btn btn-primary">Voir mes modules</a>
+            <a
+              href="https://github.com/raniabendaou-pixel/portfolio-numerique"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-secondary"
+            >
+              Dépôt GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pôle 1 : Digital Skills -->
+      <section
+        id="pole-digital"
+        class="section pole-section"
+        aria-labelledby="titre-pole-digital"
+      >
+        <div class="pole-header">
+          <h2 id="titre-pole-digital">01 • Digital Skills</h2>
+          <p>
+            Cybersécurité, prompt engineering et création de contenu numérique.
+          </p>
+        </div>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Cybersécurité</h3>
+            <p>
+              Menaces numériques, risques du quotidien, bonnes pratiques et
+              checklist.
+            </p>
+            <a href="digital-skills/cybersecurite.html" class="card-link"
+              >Ouvrir la page →</a
+            >
+          </article>
+
+          <article class="card">
+            <h3>Prompt Engineering</h3>
+            <p>
+              Cas pratiques d'amélioration de prompts et bibliothèque
+              réutilisable.
+            </p>
+            <a href="digital-skills/prompt-engineering.html" class="card-link"
+              >Ouvrir la page →</a
+            >
+          </article>
+
+          <article class="card">
+            <h3>Création de Contenu</h3>
+            <p>
+              Un même sujet décliné en avatar vidéo, montage, résumé, podcast,
+              carte mentale et diaporama.
+            </p>
+            <a href="digital-skills/creation-contenu.html" class="card-link"
+              >Ouvrir la page →</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <!-- Pôle 2 : Développement -->
+      <section
+        id="pole-dev"
+        class="section pole-section"
+        aria-labelledby="titre-pole-dev"
+      >
+        <div class="pole-header">
+          <h2 id="titre-pole-dev">02 • Développement</h2>
+          <p>Python, langage C et algorithmique.</p>
+        </div>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Python</h3>
+            <p>
+              Trois mini-projets avec code, explications, captures d'exécution
+              et retours.
+            </p>
+            <a href="developpement/python.html" class="card-link"
+              >Ouvrir la page →</a
+            >
+          </article>
+
+          <article class="card">
+            <h3>Langage C</h3>
+            <p>
+              Trois programmes illustrant les notions du cours et tableau
+              comparatif Python / C.
+            </p>
+            <a href="developpement/langage-c.html" class="card-link"
+              >Ouvrir la page →</a
+            >
+          </article>
+
+          <article class="card">
+            <h3>Algorithmique</h3>
+            <p>
+              Trois algorithmes détaillés (pseudo-code / organigramme) et
+              traduits en code.
+            </p>
+            <a href="developpement/algorithmique.html" class="card-link"
+              >Ouvrir la page →</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <!-- Pôle 3 : Systèmes d'exploitation et fondements -->
+      <section
+        id="pole-systemes"
+        class="section pole-section"
+        aria-labelledby="titre-pole-systemes"
+      >
+        <div class="pole-header">
+          <h2 id="titre-pole-systemes">
+            03 • Systèmes d'exploitation et fondements
+          </h2>
+          <p>
+            Systèmes d'exploitation, architecture des ordinateurs et
+            électronique.
+          </p>
+        </div>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Systèmes d'Exploitation</h3>
+            <p>
+              Schéma du rôle de l'OS, comparatif et commandes essentielles
+              illustrées.
+            </p>
+            <a href="systemes/systemes-exploitation.html" class="card-link"
+              >Ouvrir la page →</a
+            >
+          </article>
+
+          <article class="card">
+            <h3>Architecture & Électronique</h3>
+            <p>
+              Architecture matérielle, binaire/hexadécimal et portes logiques
+              avec tables de vérité.
+            </p>
+            <a href="systemes/architecture-electronique.html" class="card-link"
+              >Ouvrir la page →</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <!-- Fiche Transparence IA -->
+      <section
+        class="section transparency-box"
+        aria-labelledby="titre-transparence"
+      >
+        <h2 id="titre-transparence">Fiche « Transparence IA »</h2>
+        <ul class="transparency-list">
+          <li><strong>Outils utilisés :</strong> [À compléter]]</li>
+          <li><strong>Rôle de l'IA :</strong> [À compléter]</li>
+          <li><strong>Ce que j'ai fait moi-même :</strong> [À compléter]</li>
+          <li><strong>Sources vérifiées :</strong> [À compléter]</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Portfolio Numérique — 1ère année Technologie Informatique</p>
+        <p>Hébergé avec GitHub Pages</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
